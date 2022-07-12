@@ -9,11 +9,21 @@ body {
      background-color:  rgba(0, 0, 122, 0.324) !important;
   
 }
-
+.border-pt-2{
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, rgba(21,30,166,1),rgba(252,214,1,1) );
+}
 .border-pt-1{
     border:5px solid;
     border-radius: 10px;
     border-color:rgb(254, 215, 1) !important;
+}
+.border-pt-3{
+    border:5px solid;
+    border-radius: 10px;
+    border-color:rgba(21,30,166,1) !important;
 }
 .bg-carouseltp{
     background-color:  rgba(0, 0, 0, 0.167) !important;
@@ -27,6 +37,16 @@ body {
     z-index: 10000;
     
 }
+.p-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.p-middle2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .bg-yellow {
     background-color: rgb(254, 215, 1)!important;
 }
@@ -39,6 +59,19 @@ body {
 .card-title strong,p{
     font-size: 14px !important;
 }
+@media (max-width: 768px) {
+    .ai-img {
+    display: none;
+} 
+.p-middle{
+    display: none;
+}
+}
+h6 .card {
+    white-space: nowrap!important;
+    line-height: 2.5em!important;
+}
+
 .row {
     display: -webkit-box!important;
     display: -webkit-flex!important;

@@ -7,6 +7,7 @@ import { HomeComponent } from './views/home.component';
 import { HeaderComponent } from './shared/header.component';
 import { FooterComponent } from './shared/footer.component';
 import { ProfileComponent } from './views/profile.component';
+import { GalleryComponent } from './views/gallery.component';
 
 
 
@@ -16,7 +17,8 @@ import { ProfileComponent } from './views/profile.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    ProfileComponent
+    ProfileComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
